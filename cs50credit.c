@@ -38,7 +38,7 @@ int main(void)
         mod2 *= 2;
         d1 = mod2 / 10;
         d2 = mod2 % 10;
-        sum2 += sum1 + d1 + d2;
+        sum2 +=  d1 +d2;
 
         tempcard /= 10;
     }
@@ -65,9 +65,9 @@ int main(void)
         }
         else if (length == 15 && (start == 34 || start == 37))
         {
-            printf("AMX\n");
+            printf("AMEX\n");
         }
-        else if (length == 10 && (start > 50 && start < 56))
+        else if (length == 16 && (start > 50 && start < 56))
         {
             printf("MASTERCARD\n");
         }
