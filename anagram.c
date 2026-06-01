@@ -53,6 +53,6 @@ int main(void)
     }
     else
     {
-        printf("The words are NOT anagrams.\n");
+        printf("The words are not ang.\n");
     }
 }
